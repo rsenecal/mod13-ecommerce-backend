@@ -72,8 +72,6 @@
 <img width="2037" alt="mod13-ecommerce" src="https://user-images.githubusercontent.com/50510/200098939-ad10872e-de24-4406-b462-2128d79f0408.png">
 
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `rsenecal`, `mod12-employee-tracker`, `@roodysenecal`, `linkedin_username`, `email_client`, `roodysenecal@gamil.com`, `Employee Tracker`, `project_description`
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
