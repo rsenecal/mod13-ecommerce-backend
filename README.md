@@ -69,6 +69,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+<img width="2037" alt="mod13-ecommerce" src="https://user-images.githubusercontent.com/50510/200098939-ad10872e-de24-4406-b462-2128d79f0408.png">
 
 
 Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `rsenecal`, `mod12-employee-tracker`, `@roodysenecal`, `linkedin_username`, `email_client`, `roodysenecal@gamil.com`, `Employee Tracker`, `project_description`
@@ -81,10 +82,6 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 https://user-images.githubusercontent.com/50510/200098888-406e1df4-c545-4277-870e-d243018d050b.mp4
 
-
-
-
-https://user-images.githubusercontent.com/50510/199387312-5f06d139-acb6-4f85-9f7c-d107c1cb3fef.mp4
 
 
 
