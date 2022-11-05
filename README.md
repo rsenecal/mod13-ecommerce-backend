@@ -1,6 +1,5 @@
 # mod13-ecommerce-backend
 
-# mod12-employee-tracker
 
 
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
@@ -21,7 +20,7 @@
     <img src="dist/img/mod12-logo.jpg" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Employee Tracker</h3>
+<h3 align="center">E-Commerce Tracker</h3>
 
   <p align="center">
     Note Taker
@@ -80,6 +79,10 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 
 ## Video Walk-Thru
+
+
+https://user-images.githubusercontent.com/50510/200098888-406e1df4-c545-4277-870e-d243018d050b.mp4
+
 
 
 
