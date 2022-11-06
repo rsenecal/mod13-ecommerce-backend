@@ -10,10 +10,6 @@ router.get('/', async(req, res) => {
   try {
     const productData = await Product.findAll({
       include: [{ model: Category }, { model: Tag, through: ProductTag}],
-
-      // Product.findAll({
-      //   include: [ Category , { model: Tag, through: ProductTag}],
-      // }). then(function(productData){
   
     });
     res.status(200).json(productData);
@@ -114,6 +110,18 @@ router.put('/:id', (req, res) => {
 
 router.delete('/:id', (req, res) => {
   // delete one product by its `id` value
+
+  try {
+  Product.destroy(req.body, {
+    where: {
+      id: req.params.id,
+    },
+  })
+  res.status(200).json(productData);
+} catch (err) {
+  res.status(500).json(err);
+}
+
 });
 
 module.exports = router;
