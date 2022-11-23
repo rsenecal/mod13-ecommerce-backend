@@ -77,9 +77,11 @@
 
 ## Video Walk-Thru
 
-### Video is too big for github, {Github has a limit of 100 MB}. Please see link below.
 
-[Walk thru Video](https://www.loom.com/share/bab816d92ad34eee826aa3e667d1cb27)
+https://user-images.githubusercontent.com/50510/203468995-4b5a5bac-2d2d-46fa-a9cb-115a12aab5c5.mp4
+
+
+
 
 
 ### Built With
@@ -133,11 +135,9 @@ You will need a mordern browser.
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this app to add employees, assign Role to employee with set Salary per Role.
-Add, view and assign Departments to employees.
-View Employees, Roles and Departments
+E-commerce back-end with full CRUD routes for Categories, Products and tags.
 
-_For more examples, please refer to the [Documentation](https://github.com/rsenecal/mod12-employee-tracker/wiki)_
+_For more examples, please refer to the [Documentation](https://github.com/rsenecal/mod13-ecommerce-backend//wiki)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
