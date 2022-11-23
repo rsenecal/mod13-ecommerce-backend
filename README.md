@@ -77,10 +77,9 @@
 
 ## Video Walk-Thru
 
+### Video is too big for github, {Github has a limit of 100 MB}. Please see link below.
 
-https://user-images.githubusercontent.com/50510/200098888-406e1df4-c545-4277-870e-d243018d050b.mp4
-
-
+[Walk thru Video](https://www.loom.com/share/bab816d92ad34eee826aa3e667d1cb27)
 
 
 ### Built With
