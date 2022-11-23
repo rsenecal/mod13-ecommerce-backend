@@ -30,27 +30,51 @@ router.get('/:id', async(req, res) => {
   }
 });
 
-router.post('/', (req, res) => {
+router.post('/', async(req, res) => {
   // create a new category
-});
 
-router.put('/:id', (req, res) => {
-  // update a category by its `id` value
-});
-
-router.delete('/:id', async(req, res) => {
-  // delete a category by its `id` value
   try {
-    const delCatById = await Category.destroy(req.body, {
+    const categoryData = await Category.create({
+      category_name: req.body.category_name,
+    });
+    res.status(200).json(categoryData);
+  } catch (err) {
+    res.status(400).json(err);
+  }
+});
+
+router.put('/:id', async(req, res) => {
+  // update a category by its `id` value
+
+    try {
+      const updateCategory= await Category.update(
+        { caregory_name: req.body.category_name },
+        { where: { id: req.params.id } }
+      );
+      res.status(200).json(updateCategory);
+    } catch (err) {
+      res.status(500).json(err);
+    }
+
+});
+
+
+
+
+router.delete('/:id', (req, res) => {
+  // delete a category by its `id` value
+  // try {
+    Category.destroy({
       where: {
         id: req.params.id,
       },
-    })
-    res.status(200).json(delCatById);
-  } catch (err) {
-    res.status(500).json(err);
-  }
-  
-});
+    }) 
+    .then ((detCatById) => res.json(delCatById))
+    .catch ((err) => {
+      res.status(500).json(err);
+    });
+  })
+
+
 
 module.exports = router;
